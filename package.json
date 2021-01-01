@@ -1,17 +1,15 @@
 {
-  "name": "metarhia",
+  "name": "metarhia-wave",
   "version": "1.0.0",
   "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
-  "description": "Metarhia Application Example",
+  "description": "Metarhia Wave server",
   "license": "MIT",
   "keywords": [
     "metarhia",
-    "starter",
-    "kit",
+    "wave",
     "cloud",
     "impress",
     "nodejs",
-    "example",
     "websocket",
     "api",
     "application",
@@ -34,14 +32,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/metarhia/Example"
+    "url": "https://github.com/fixik-nolik/wave"
   },
   "bugs": {
-    "url": "https://github.com/metarhia/Example/issues"
+    "url": "https://github.com/fixik-nolik/wave/issues"
   },
-  "homepage": "https://github.com/metarhia/Example",
+  "homepage": "https://github.com/fixik-nolik/wave",
   "main": "server.js",
   "scripts": {
+    "wave": "node server.js",
     "test": "npm run -s lint && node test/system.js",
     "lint": "eslint ."
   },
@@ -54,6 +53,7 @@
     "metatests": "^0.7.2"
   },
   "dependencies": {
-    "impress": "^2.0.0"
+    "impress": "^2.0.0",
+    "metasql": "^0.3.0-alpha.2"
   }
 }
