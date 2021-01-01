@@ -1,2 +1,2 @@
-CREATE USER marcus WITH PASSWORD 'marcus';
-CREATE DATABASE application OWNER marcus;
+CREATE USER nolik WITH PASSWORD 'nolik';
+CREATE DATABASE wave OWNER nolik;
