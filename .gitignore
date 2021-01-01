@@ -1,4 +1,5 @@
 node_modules
+application/cert/*.pem
 /log/
 *.log
 *.done
