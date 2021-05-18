@@ -3,4 +3,5 @@ application/cert/*.pem
 /log/
 *.log
 *.done
+*.pem
 .DS_Store

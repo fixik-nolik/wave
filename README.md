@@ -56,11 +56,14 @@ let's start with
 - Remove unneeded dependencies if your project doesn't require them
 - Add your license to `LICENSE` file but don't remove starter kit license
 - Start your project modifying this starter kit
-- Ask questions in https://t.me/nodeua and post issues on
-[github](https://github.com/HowProgrammingWorks/NodejsStarterKit/issues)
+- Before running server initialize the DB:
+  - First of all, make sure you have PostgreSQL installed (prefer 12.x).
+  - Run database initialization script: `application/db/setup.sh`
 - Run project: `node server.js` and stop with Ctrl+C
+- Ask questions in https://t.me/nodeua and post issues on
+  [github](https://github.com/HowProgrammingWorks/NodejsStarterKit/issues)
 
 ## License
 
-Copyright (c) 2020 Metarhia contributors.
+Copyright (c) 2020-2021 Metarhia contributors.
 This starter kit is [MIT licensed](./LICENSE).

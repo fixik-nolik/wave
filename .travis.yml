@@ -5,6 +5,7 @@ node_js:
   - 15
 services:
   - postgresql
+  - redis-server
 before_script:
   - psql -f application/db/install.sql -U postgres
   - PGPASSWORD=nolik psql -d wave -f application/db/structure.sql -U nolik

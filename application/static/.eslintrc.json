@@ -2,9 +2,11 @@
   "parserOptions": {
     "sourceType": "module"
   },
+  "globals": {
+    "application": "readonly",
+    "api": "readonly"
+  },
   "rules": {
-    "id-denylist": [
-      0
-    ]
+    "id-denylist": [2, "global"]
   }
 }
